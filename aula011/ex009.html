@@ -6,7 +6,23 @@
     <title>Passaporte por favor</title>
 </head>
 <body>
-    <h1>De onde você senhor(a)</h1>
-    inpu
+    <h1>De onde o(a) senhor(a)</h1>
+    <input type="number" name="t1" id="t1">
+    <input type="number" name="t2" id="t2">
+    <div id="p">
+
+    </div>
+    <script>
+        var text1 = window.document.querySelector('input#t1')
+        var text2 = window.document.querySelector('input#t2')
+        var p = window.document.querySelector('div#p')
+        function p() {
+            if (país == 'Brasil') {
+                p.innertext = 'Vocé é Brasileiro'
+            } else {
+                console.log(`Você é Estrangeiro`)
+            }
+        }
+    </script>
 </body>
 </html>
